@@ -1,0 +1,9 @@
+{
+  "name": "Local",
+  "type": "local",
+  "url": "http://localhost:8080",
+  "buildName": "#1",
+  "buildOrder": "1",
+  "buildUrl": "http://localhost:8080",
+  "reportUrl": "http://localhost:8080"
+}

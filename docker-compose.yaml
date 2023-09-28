@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  allure:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - "$PWD/build/allure-results:/app/allure-results"
+    networks:
+      - allure
+
+networks:
+  allure:
+    driver: bridge
+
